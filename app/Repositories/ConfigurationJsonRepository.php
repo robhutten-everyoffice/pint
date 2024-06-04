@@ -50,6 +50,21 @@ class ConfigurationJsonRepository
     }
 
     /**
+     * Get the indent option.
+     *
+     * @return string
+     */
+    public function indent()
+    {
+        return $this->get()['indent'] ?? '    ';
+    }
+
+    public function lineEnding()
+    {
+        return $this->get()['lineEnding'] ?? "\n";
+    }
+
+    /**
      * Get the cache file location.
      *
      * @return string|null

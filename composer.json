@@ -1,13 +1,13 @@
 {
-    "name": "laravel/pint",
+    "name": "robhutten-everyoffice/pint",
     "description": "An opinionated code formatter for PHP.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
     "homepage": "https://laravel.com",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/pint/issues",
-        "source": "https://github.com/laravel/pint"
+        "issues": "https://github.com/robhutten-everyoffice/pint/issues",
+        "source": "https://github.com/robhutten-everyoffice/pint"
     },
     "authors": [
         {
